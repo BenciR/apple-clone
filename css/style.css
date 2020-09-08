@@ -42,14 +42,8 @@ a{
   border: 1px solid rgb(95, 95, 95, 1);
   border-radius: 4px;
 
-  background: #707070;
-  background: 
-    linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.2) 0,
-      rgba(0, 0, 0, 0) 5%,
-      rgba(0, 0, 0, 0) 97%,
-      rgba(0, 0, 0, 0.45) 100%);
+  background: rgb(153,153,153);
+  background: linear-gradient(180deg, rgba(153,153,153,1) 0%, rgba(95,95,95,1) 66%, rgba(124,124,124,1) 98%);
   
     box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -154,20 +148,36 @@ a{
 .footer {
   width: 100%;
   display: grid;
-  grid-template-columns: 60% 40%;
-  justify-content: space-around;
-  margin: 0 auto;
-  font-family: "Open Sans", sans-serif;
+  grid-template-columns: 50% 50%;
   font-size: 0.55em;
+  margin-top: 2%;
 }
+
+.disclaimer > p{
+  float: right;
+  margin-right: 10%;
+  word-spacing: 6px;
+}
+
 
 .site-map_list {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   list-style: none;
 }
 
+
+.site-map_list > li > img{
+  width: 40%;
+}
+
 .site-map_vSeparator {
+  height: 10px;
   transform: rotete(90deg);
-  color: rgb(190, 190, 190);
+  color: rgb(100, 100, 100);
+  margin: 0 1% 0 1%;
+}
+
+.copyright > p{
+  margin: 2% 0 0 13%;
 }
