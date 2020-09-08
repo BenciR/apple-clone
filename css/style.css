@@ -7,6 +7,8 @@
 
 .container {
   width: 80%;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
 }
 
@@ -18,7 +20,7 @@ a{
 .cover {
   height: 70vh;
   background: url("../images/your_verse_hero_2x.jpg") 50% 50% no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin-top: -10px;
   width: 100%;
   padding-top: 100px;
@@ -150,16 +152,18 @@ a{
 }
 
 .footer {
+  width: 100%;
   display: grid;
   grid-template-columns: 60% 40%;
-  margin: 0 auto;
   justify-content: space-around;
-  font-size: 0.7em;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.55em;
 }
 
 .site-map_list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
 }
 
