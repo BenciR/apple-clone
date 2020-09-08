@@ -20,11 +20,8 @@
   justify-content: space-around;
   list-style: none;
   background: rgb(123, 123, 123);
-  background: linear-gradient(
-    180deg,
-    rgba(123, 123, 123, 1) 0%,
-    rgba(95, 95, 95, 1) 60%,
-    rgba(117, 117, 117, 1) 98%
+  background: 
+    linear-gradient(180deg,rgba(123, 123, 123, 1) 0%, rgba(95, 95, 95, 1) 60%,rgba(117, 117, 117, 1) 98%
   );
   color: #fff;
   border: 1px solid rgb(95, 95, 95, 1);
