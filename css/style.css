@@ -2,35 +2,113 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: #08c;
 }
 
 .cover {
   height: 70vh;
-  background-image: url("../images/your_verse_hero_2x.jpg");
+  background: url("../images/your_verse_hero_2x.jpg") 50% 50% no-repeat;
+  background-size: contain;
+  margin-top: -10px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.navbar {
+  height: 36px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .navbar-list {
   display: flex;
-  width: 70%;
-  height: 6vh;
-  position: absolute;
-  top: 10%;
-  left: 15%;
+  width: 100%;
+  height: 100%;
   align-items: center;
-  justify-content: space-around;
   list-style: none;
-  background: rgb(123, 123, 123);
-  background: 
-    linear-gradient(
-    180deg,
-    rgba(123, 123, 123, 1) 0%,
-    rgba(95, 95, 95, 1) 60%,
-    rgba(117, 117, 117, 1) 98%
-  );
   color: #fff;
   border: 1px solid rgb(95, 95, 95, 1);
   border-radius: 4px;
+
+  background: #707070;
+  background: 
+    linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.2) 0,
+      rgba(0, 0, 0, 0) 5%,
+      rgba(0, 0, 0, 0) 97%,
+      rgba(0, 0, 0, 0.45) 100%);
+  
+    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+
 }
+
+.navbar-list > li{
+  display: flex;
+  flex: 1;
+  height:100%;
+}
+
+.navbar-list > li > a{
+  display:flex;
+  border-width: 0 2px 0 1px;
+  border-style: solid;
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+}
+
+.navbar-list > li > a:hover{
+  background: rgb(44, 43, 43);
+}
+
+.navbar-list > li:first-child > a{
+  border-width: 0 2px 0 0;
+}
+
+.search-box{
+    width: 150px;
+    height: 20px;
+    border: 0 none;
+    padding: 0;
+    color: #fff;
+    background: url(../images/globalsearch_field.png) 0 0 no-repeat;
+    align-self: center;
+}
+
+.search-box > input{
+    width: 100%;
+    height: 100%;
+    padding: 2px 18px 1px 22px;
+    background-image: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+    z-index: 0;
+    color: #fff;
+    background: none;
+    margin:0;
+    border: none;
+}
+
+.search-box > input:hover, .search-box > input:focus{
+  outline: none;
+}
+
 
 .cover-content {
   position: absolute;
