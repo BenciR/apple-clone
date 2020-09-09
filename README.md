@@ -4,7 +4,7 @@
 
 > This is a microverse student project for working with Positioning and Floating Elements
 
-![screenshot](./images/screenshot.PNG)
+![screenshot](./images/screenshot.png)
 
 > This project clones the apple.com old page interface design.
 > The project includes the header, the main content and the footer as it's main features.
