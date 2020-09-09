@@ -157,19 +157,17 @@ a {
 
 .site-map_list {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   list-style: none;
+}
+
+.site-map_list > li{
+  border-left: 1px solid rgb(165, 165, 165);
+  padding: 0 4px 0 4px;
 }
 
 .site-map_list > li > img {
   width: 40%;
-}
-
-.site-map_vSeparator {
-  height: 10px;
-  transform: rotate(90deg);
-  color: rgb(100, 100, 100);
-  margin: 0 1% 0 1%;
 }
 
 .copyright > p {
