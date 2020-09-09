@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/EraaniR/apple-clone/ffabe628d6b775ca1eed774a10ddf6d1b4179867/index.html)
+[Live Demo Link](https://rawcdn.githack.com/EraaniR/apple-clone/6384e1e276590df6008ba48952d7ae8a39c9299e/index.html)
 
 ## Getting Started
 
