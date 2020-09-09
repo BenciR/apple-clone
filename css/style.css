@@ -5,16 +5,13 @@
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-.container {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: none;
   color: #08c;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .cover {
@@ -22,7 +19,6 @@ a {
   background: url("../images/your_verse_hero_2x.jpg") 50% 50% no-repeat;
   background-size: cover;
   margin-top: -10px;
-  width: 100%;
   padding-top: 100px;
 }
 
@@ -32,13 +28,21 @@ a {
   margin: 0 auto;
 }
 
-.navbar-list {
+.d-flex {
   display: flex;
-  width: 100%;
+}
+
+.c-fff {
+  color: #fff;
+}
+
+.h-100 {
   height: 100%;
+}
+
+.navbar-list {
   align-items: center;
   list-style: none;
-  color: #fff;
   border: 1px solid rgb(95, 95, 95, 1);
   border-radius: 4px;
   background: rgb(153, 153, 153);
@@ -48,22 +52,17 @@ a {
 }
 
 .navbar-list > li {
-  display: flex;
   flex: 1;
-  height: 100%;
 }
 
 .navbar-list > li > a {
-  display: flex;
   border-width: 0 2px 0 1px;
   border-style: solid;
   border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
   flex: 1;
   align-items: center;
   justify-content: center;
-  color: #fff;
   text-decoration: none;
-  height: 100%;
 }
 
 .navbar-list > li > a:hover {
@@ -79,19 +78,15 @@ a {
   height: 20px;
   border: 0 none;
   padding: 0;
-  color: #fff;
   background: url(../images/globalsearch_field.png) 0 0 no-repeat;
   align-self: center;
 }
 
 .search-box > input {
-  width: 100%;
-  height: 100%;
   padding: 2px 18px 1px 22px;
   border-radius: 12px;
   box-sizing: border-box;
   z-index: 0;
-  color: #fff;
   background: none;
   margin: 0;
   border: none;
@@ -107,8 +102,6 @@ a {
   width: 60%;
   top: 25%;
   left: 20%;
-  color: #fff;
-  display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Open Sans", sans-serif;
@@ -137,12 +130,7 @@ a {
   grid-gap: 2px;
 }
 
-.product-img img {
-  width: 100%;
-}
-
 .footer {
-  width: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
   font-size: 0.55em;
@@ -156,7 +144,6 @@ a {
 }
 
 .site-map_list {
-  display: flex;
   justify-content: center;
   list-style: none;
 }
@@ -170,6 +157,6 @@ a {
   width: 40%;
 }
 
-.copyright > p {
-  margin: 2% 0 0 13%;
+.copyright {
+  float: left;
 }
